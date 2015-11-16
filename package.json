@@ -1,0 +1,41 @@
+{
+  "name": "assert-semver-operator",
+  "main": "index.js",
+  "bin": {
+    "assert-operator": "./cli.js"
+  },
+  "version": "0.0.0",
+  "description": "Assert that a package adheres to a semver operator",
+  "license": "MIT",
+  "repository": "bendrucker/assert-semver-operator",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "assert",
+    "semver",
+    "operator",
+    "package"
+  ],
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^5.0.0"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "dependencies": {
+    "assert-ok": "~1.0.0",
+    "cli-fail": "~1.0.0",
+    "filter-pipe": "~1.0.1",
+    "meow": "~3.6.0",
+    "semver-operators": "~2.0.1",
+    "simple-format": "~1.0.0"
+  }
+}
