@@ -21,7 +21,7 @@ assertOperator('.', '~', function (err) {
 ```
 
 ```sh
-assert-operator . ~
+assert-operator . "~"
 ```
 
 ## API
