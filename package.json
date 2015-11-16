@@ -4,7 +4,7 @@
   "bin": {
     "assert-operator": "./cli.js"
   },
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Assert that a package adheres to a semver operator",
   "license": "MIT",
   "repository": "bendrucker/assert-semver-operator",
