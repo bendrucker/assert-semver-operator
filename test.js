@@ -27,7 +27,7 @@ test('valid cli', function (t) {
   t.plan(1)
 
   var args = [cli, './fixtures/valid', '~']
-  var options = {encoding: 'utf-8'}
+  var options = { encoding: 'utf-8' }
   child.execFile('node', args, options, function (err, stdout) {
     if (err) return t.end(err)
     t.notOk(stdout.trim())
@@ -38,7 +38,7 @@ test('invalid cli', function (t) {
   t.plan(2)
 
   var args = [cli, './fixtures/invalid', '~']
-  var options = {encoding: 'utf-8'}
+  var options = { encoding: 'utf-8' }
   child.execFile('node', args, options, function (err) {
     t.ok(err)
     t.ok(/dependencies/.test(err.message))

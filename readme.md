@@ -1,4 +1,4 @@
-# assert-semver-operator [![Build Status](https://travis-ci.org/bendrucker/assert-semver-operator.svg?branch=master)](https://travis-ci.org/bendrucker/assert-semver-operator)
+# assert-semver-operator [![Build Status](https://travis-ci.org/bendrucker/assert-semver-operator.svg?branch=master)](https://travis-ci.org/bendrucker/assert-semver-operator) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/assert-semver-operator.svg)](https://greenkeeper.io/)
 
 > Assert that a package adheres to a semver operator
 

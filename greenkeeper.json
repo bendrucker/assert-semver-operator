@@ -1,0 +1,11 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "fixtures/invalid/package.json",
+        "fixtures/valid/package.json",
+        "package.json"
+      ]
+    }
+  }
+}

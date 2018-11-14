@@ -7,12 +7,10 @@ var meow = require('meow')
 var fail = require('cli-fail')
 var filter = require('filter-pipe')
 
-var cli = meow({
-  help: [
-    'Usage',
-    '  assert-operator <package>'
-  ]
-})
+var cli = meow(`
+  Usage
+    assert-operator <package> <operator>
+`)
 
 var pkgName = cli.input[0]
 var operator = cli.input[1]
