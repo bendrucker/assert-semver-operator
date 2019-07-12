@@ -10,7 +10,7 @@ var opposites = {
 }
 
 module.exports = function assertOperator (pkgName, operator, callback) {
-  assert(opposites.hasOwnProperty(operator), 'Invalid operator. ~ and ^ are allowed.')
+  assert(Object.prototype.hasOwnProperty.call(opposites, operator), 'Invalid operator. ~ and ^ are allowed.')
   operators(pkgName, function (err, operators) {
     if (err) return callback(err)
     var opposite = opposites[operator]
